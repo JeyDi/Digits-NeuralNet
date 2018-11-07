@@ -1,0 +1,3 @@
+https://www.kaggle.com/legoritma/building-autoencoders-in-keras-notebook
+https://blog.keras.io/building-autoencoders-in-keras.html
+https://www.kaggle.com/legoritma/building-autoencoders-in-keras-notebook

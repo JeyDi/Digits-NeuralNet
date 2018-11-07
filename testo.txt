@@ -1,0 +1,27 @@
+The assignment consists on the prediction of letters from grayscale images of letters A - J.
+
+
+
+The data can be loaded as follows:
+
+import pickle 
+
+x_train = pickle.load(open("x_train.obj","rb"))
+
+x_test = pickle.load(open("x_test.obj","rb"))
+
+y_train = pickle.load(open("y_train.obj","rb"))
+
+
+
+The provided data comprises the training set that can be used for the training (and eventually for the validation) and the unlabelled test set.
+
+
+
+In order to be evaluated, each student should submit (strictly before the deadline):
+
+the source code;
+a brief report (1 or 2 pages) in pdf or doc format with some motivations about the choices about: data processing, number and dimension of the layers, optimization algorithms and regularization;
+(optional) investigate the use of the hidden representation obtained with auto-encoder architectures for predicting the labels (a notebook with an example has been uploaded)
+(optional) a txt file named Nome_Cognome_Matricola_score2.txt, where each line corresponds to the prediction (a letter comprises between A and J) of the instances of the test set.
+Collaboration is allowed, but the final product must be individual.
